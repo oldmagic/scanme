@@ -1,0 +1,30 @@
+{
+  "name": "scanme",
+  "version": "1.0.0",
+  "description": "A React component library that provides a QR code dropdown for wallet addresses.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oldmagic/scanme.git"
+  },
+  "keywords": [
+    "react",
+    "qr",
+    "component",
+    "wallet",
+    "qrcode"
+  ],
+  "author": "oldmagic",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=19.0.0",
+    "react-dom": ">=19.0.0"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublishOnly": "npm run build"
+  }
+}
